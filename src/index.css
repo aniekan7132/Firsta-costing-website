@@ -1,0 +1,117 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.product-list {
+  display: grid;
+  gap: 10px;
+  box-sizing: border-box;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  );
+}
+
+.product-card {
+  background: white;
+  border-radius: 8px;
+  width: 280px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+    0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  height: 50vh;
+  border-radius: 8px 8px 0 0;
+}
+
+.product-card .product-info {
+  padding: 16px;
+}
+
+.product-card .product-name {
+  font-size: 1em;
+  margin: 0;
+}
+
+.product-card .product-price {
+  color: #e91e63;
+  font-size: 1.2em;
+}
+
+button {
+  background-color: gold;
+  padding: 10px 10px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+/* Neomorphic design for the search bar */
+.neomorph-input {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  background: #e0e0e0; /* Background color */
+  box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff; /* Neomorphic shadows */
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: block;
+}
+
+.neomorph-input::placeholder {
+  color: rgb(59, 58, 58);
+}
+
+
+.notfound{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (  max-width: 576px)  {
+  .list__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .neomorph-input {
+    width: 80%;
+  }
+  .product-card img {
+    height: 40vh;
+    border-radius: 8px 8px 0 0;
+  }
+}

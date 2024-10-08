@@ -1,0 +1,80 @@
+
+
+[
+  
+    {
+      "image":"",
+      "price": 50000,
+      "productName": "Authentication (Login/Signup) & User Profile"
+    },
+    {
+      "image":"",
+      "price": 100000,
+      "productName": "Dashboard & Statistics"
+    },
+    {
+      "image":"",
+      "price": 30000,
+      "productName": "Online payment gateway"
+    },
+    {
+      "image":"",
+      "price": 120000,
+      "productName": "Private chat engine"
+    },
+    {
+      "image":"",
+      "price": 240000,
+      "productName": "Forum/group chat"
+    },
+    {
+      "image":"",
+      "price": 100000,
+      "productName": "E-Wallet"
+    },
+    {
+      "image":"",
+      "price": 150000,
+      "productName": "Media player (Video/Audio)"
+    },
+    {
+      "image":"",
+      "price": 250000,
+      "productName": "E-Learning system"
+    },
+    {
+      "image":"",
+      "price": 32000,
+      "productName": "Search Engine Optimization"
+    },
+    {
+      "image":"",
+      "price": 100000,
+      "productName": "Landing page"
+    },
+    {
+      "image":"",
+      "price": 120000,
+      "productName": "Hotel management system"
+    },
+    {
+      "image":"",
+      "price": 350000,
+      "productName": "School management system"
+    },
+    {
+      "image":"",
+      "price": 300000,
+      "productName": "Hospital management system"
+    },
+    {
+      "image":"",
+      "price": 210000,
+      "productName": "Social media/blog feed/news feed"
+    },
+    {
+      "image":"",
+      "price": 70000,
+      "productName": "Custom Google map integration"
+    }
+  ]
